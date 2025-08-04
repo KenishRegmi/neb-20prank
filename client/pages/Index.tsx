@@ -69,7 +69,7 @@ export default function Index() {
       <div className="relative z-10 text-center px-4">
         {/* Logo */}
         <div className="mb-8">
-          <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-4">
+          <div className="w-56 h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 mx-auto mb-4">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F29ed8878a13b43b993895f824319f4e5%2Fa13d22cf0d5f45e59f3a348939507d1c?format=webp&width=800"
               alt="Nepal Telecom Logo"
