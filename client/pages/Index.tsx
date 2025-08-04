@@ -51,7 +51,15 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-900 to-blue-800 flex flex-col items-center justify-center text-white relative overflow-hidden">
       {/* Background pattern */}
-      <div className="absolute inset-0 opacity-10">
+      <div className="absolute inset-0 opacity-5">
+        {/* Large background logo */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F29ed8878a13b43b993895f824319f4e5%2Fa57e6b5588664d9489dc352bccaea9c1?format=webp&width=800"
+            alt="Background Logo"
+            className="w-96 h-96 object-contain opacity-30"
+          />
+        </div>
         <div className="absolute top-20 left-20 w-32 h-32 border border-white/20 rounded-full"></div>
         <div className="absolute top-40 right-32 w-24 h-24 border border-white/20 rounded-full"></div>
         <div className="absolute bottom-32 left-32 w-40 h-40 border border-white/20 rounded-full"></div>
