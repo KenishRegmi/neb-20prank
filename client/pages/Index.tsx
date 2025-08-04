@@ -61,15 +61,12 @@ export default function Index() {
       <div className="relative z-10 text-center px-4">
         {/* Logo */}
         <div className="mb-8">
-          <div className="w-24 h-24 mx-auto mb-4 relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center">
-              <svg className="w-12 h-12 text-blue-900" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
-              </svg>
-            </div>
-            <div className="absolute -top-2 -right-2 w-6 h-6 bg-yellow-400 rounded-full flex items-center justify-center">
-              <div className="w-2 h-2 bg-blue-900 rounded-full"></div>
-            </div>
+          <div className="w-32 h-32 mx-auto mb-4">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F29ed8878a13b43b993895f824319f4e5%2Fa57e6b5588664d9489dc352bccaea9c1?format=webp&width=800"
+              alt="Nepal Telecom Logo"
+              className="w-full h-full object-contain"
+            />
           </div>
         </div>
 
