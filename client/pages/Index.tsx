@@ -71,7 +71,7 @@ export default function Index() {
         <div className="mb-8">
           <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-4">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F29ed8878a13b43b993895f824319f4e5%2Fa57e6b5588664d9489dc352bccaea9c1?format=webp&width=800"
+              src="https://cdn.builder.io/api/v1/image/assets%2F29ed8878a13b43b993895f824319f4e5%2Fa13d22cf0d5f45e59f3a348939507d1c?format=webp&width=800"
               alt="Nepal Telecom Logo"
               className="w-full h-full object-contain"
             />
