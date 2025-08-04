@@ -55,7 +55,7 @@ export default function Index() {
         {/* Large background logo */}
         <div className="absolute inset-0 flex items-center justify-center">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F29ed8878a13b43b993895f824319f4e5%2Fa57e6b5588664d9489dc352bccaea9c1?format=webp&width=800"
+            src="https://cdn.builder.io/api/v1/image/assets%2F29ed8878a13b43b993895f824319f4e5%2Fa13d22cf0d5f45e59f3a348939507d1c?format=webp&width=800"
             alt="Background Logo"
             className="w-96 h-96 object-contain opacity-30"
           />
