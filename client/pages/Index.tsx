@@ -6,12 +6,12 @@ export default function Index() {
   useEffect(() => {
     // Get or set the countdown end time (2 hours from first visit)
     const getEndTime = () => {
-      const stored = localStorage.getItem('countdownEndTime');
+      const stored = localStorage.getItem("countdownEndTime");
       if (stored) {
         return parseInt(stored);
       } else {
-        const endTime = Date.now() + (2 * 60 * 60 * 1000); // 2 hours from now
-        localStorage.setItem('countdownEndTime', endTime.toString());
+        const endTime = Date.now() + 2 * 60 * 60 * 1000; // 2 hours from now
+        localStorage.setItem("countdownEndTime", endTime.toString());
         return endTime;
       }
     };
@@ -40,9 +40,9 @@ export default function Index() {
     const seconds = totalSeconds % 60;
 
     return {
-      hours: hours.toString().padStart(2, '0'),
-      minutes: minutes.toString().padStart(2, '0'),
-      seconds: seconds.toString().padStart(2, '0')
+      hours: hours.toString().padStart(2, "0"),
+      minutes: minutes.toString().padStart(2, "0"),
+      seconds: seconds.toString().padStart(2, "0"),
     };
   };
 
@@ -95,7 +95,9 @@ export default function Index() {
               <div className="text-sm md:text-base mt-2 text-white">Hours</div>
             </div>
 
-            <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-white pb-8">:</div>
+            <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-white pb-8">
+              :
+            </div>
 
             <div className="text-center">
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 md:p-6 min-w-[80px] md:min-w-[100px]">
@@ -103,10 +105,14 @@ export default function Index() {
                   {minutes}
                 </div>
               </div>
-              <div className="text-sm md:text-base mt-2 text-white">Minutes</div>
+              <div className="text-sm md:text-base mt-2 text-white">
+                Minutes
+              </div>
             </div>
 
-            <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-white pb-8">:</div>
+            <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-white pb-8">
+              :
+            </div>
 
             <div className="text-center">
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 md:p-6 min-w-[80px] md:min-w-[100px]">
@@ -114,10 +120,12 @@ export default function Index() {
                   {seconds}
                 </div>
               </div>
-              <div className="text-sm md:text-base mt-2 text-white">Seconds</div>
+              <div className="text-sm md:text-base mt-2 text-white">
+                Seconds
+              </div>
             </div>
           </div>
-          
+
           {timeRemaining === 0 && (
             <div className="text-xl md:text-2xl font-semibold text-yellow-400 animate-pulse">
               Time's Up! Results Should Be Available Now!
