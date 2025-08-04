@@ -80,33 +80,33 @@ export default function Index() {
           <div className="flex justify-center items-center space-x-4 md:space-x-8 mb-4">
             <div className="text-center">
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 md:p-6 min-w-[80px] md:min-w-[100px]">
-                <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-400">
+                <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
                   {hours}
                 </div>
               </div>
-              <div className="text-sm md:text-base mt-2 text-white/80">Hours</div>
+              <div className="text-sm md:text-base mt-2 text-white">Hours</div>
             </div>
-            
-            <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-400 pb-8">:</div>
-            
+
+            <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-white pb-8">:</div>
+
             <div className="text-center">
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 md:p-6 min-w-[80px] md:min-w-[100px]">
-                <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-400">
+                <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
                   {minutes}
                 </div>
               </div>
-              <div className="text-sm md:text-base mt-2 text-white/80">Minutes</div>
+              <div className="text-sm md:text-base mt-2 text-white">Minutes</div>
             </div>
-            
-            <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-400 pb-8">:</div>
-            
+
+            <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-white pb-8">:</div>
+
             <div className="text-center">
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 md:p-6 min-w-[80px] md:min-w-[100px]">
-                <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-400">
+                <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
                   {seconds}
                 </div>
               </div>
-              <div className="text-sm md:text-base mt-2 text-white/80">Seconds</div>
+              <div className="text-sm md:text-base mt-2 text-white">Seconds</div>
             </div>
           </div>
           
